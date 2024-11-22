@@ -1,0 +1,128 @@
+/* style.css */
+
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilização do corpo */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #004494;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 1.5px;
+}
+
+/* Navegação */
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d9ecff;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+main h2 {
+    color: #0056b3;
+    margin-top: 0;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+/* Parágrafos */
+main p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+/* Destaques */
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Listas */
+main ul {
+    list-style-type: square;
+    margin: 15px 0 15px 20px;
+}
+
+main ul li {
+    margin: 10px 0;
+}
+
+/* Imagens */
+main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+main a {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0056b3;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+main a:hover {
+    background-color: #003f7a;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #004494;
+    color: #fff;
+    font-size: 0.9em;
+    border-top: 5px solid #00356f;
+}
